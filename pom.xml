@@ -17,12 +17,41 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+        <!-- J2EE -->
+        <java.version>1.6</java.version>
+        <servlet.version>2.5</servlet.version>
+
         <!-- Plugin Version -->
         <maven.compiler.version>2.3.2</maven.compiler.version>
         <maven.source.version>2.1</maven.source.version>
         <maven.jetty.version>6.1.16</maven.jetty.version>
         <maven.war.version>2.1</maven.war.version>
+
+        <!-- TestNG/Mockito -->
+        <testng.version>6.8.5</testng.version>
+        <mockito.version>1.9.5</mockito.version>
+
+        <lombok.version>1.12.2</lombok.version>
+
+        <!-- spring -->
+        <spring.version>3.2.2.RELEASE</spring.version>
+
+        <!-- Fastjson -->
+        <fastjson.version>1.1.32</fastjson.version>
+
+        <!-- Freemarker -->
+        <freemarker.version>2.3.18</freemarker.version>
+
+        <commons.upload.version>1.3.1</commons.upload.version>
     </properties>
+
+    <developers>
+        <developer>
+            <id>harry.chen</id>
+            <name>harry.chen</name>
+            <email>harrychen1988@gmail.com</email>
+        </developer>
+    </developers>
 
     <dependencyManagement>
         <dependencies>
@@ -31,11 +60,94 @@
                 <artifactId>my_shoot_action</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <!-- TestNG/Mockito -->
             <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>3.8.1</version>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>${testng.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>${mockito.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <!--spring -->
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>${servlet.version}</version>
+            </dependency>
+            <!-- Spring -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-webmvc</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context-support</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-expression</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>${spring.version}</version>
+                <!--<exclusions>-->
+                    <!--<exclusion>-->
+                        <!--<groupId>commons-logging</groupId>-->
+                        <!--<artifactId>commons-logging</artifactId>-->
+                    <!--</exclusion>-->
+                <!--</exclusions>-->
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <!-- FastJson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- Freemarker -->
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>${freemarker.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${commons.upload.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
