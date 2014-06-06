@@ -1,0 +1,31 @@
+1 maven parent-module child-module
+
+2 maven filter (dev product)
+
+4 maven Management
+
+3 spring property-placeholder
+
+5 aop validation
+
+6 dynamic data source  --> druid
+
+@low
+7 xml parse
+
+@low
+8 web service
+
+9 logback
+
+10 http component
+
+11 Mockito testng  -- h2 database
+
+### framework
+12 exception handler
+
+13 api_url design
+
+14 result code design
+
