@@ -28,9 +28,8 @@ public class DatasourceAdvice implements MethodBeforeAdvice, AfterReturningAdvic
 
         Datasource methodAnnotation = method.getAnnotation(Datasource.class);
         if (methodAnnotation == null) {
-            DataSourceSwitcher.setDataSource(datasourceEnum);
-            return;
+            datasourceEnum = methodAnnotation.dataSource();
         }
-        DataSourceSwitcher.setDataSource(methodAnnotation.dataSource());
+        DataSourceSwitcher.setDataSource(datasourceEnum);
     }
 }

@@ -5,8 +5,7 @@
         SELECT
         id,
         name,
-        sex,
-        create_time createTime
+        sex
         FROM
         USER
     </select>

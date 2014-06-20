@@ -1,5 +1,6 @@
 package controller;
 
+import com.alibaba.fastjson.JSON;
 import my_shoot.service.BaseService;
 import my_shoot.service.dao.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,6 @@ public class MyController {
     @ResponseBody
     public String my(){
         List<User> users = baseService.listUser();
-        return baseService.base() + ":" + key;
+        return JSON.toJSONString(users);
     }
 }

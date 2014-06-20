@@ -6,22 +6,22 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$USER_HOME$/vipsource2/user_center/user_center_service/src/main/java/com/vipshop/usercenter/service/impl/WalletServiceImpl.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401936115694" ignored="false" />
     <file path="/WalletServiceImpl.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401793949379" ignored="false" />
-    <file path="/pom.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1402047796863" ignored="false" />
+    <file path="/pom.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403255752192" ignored="false" />
     <file path="/ServiceImpl.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403246335412" ignored="false" />
-    <file path="/Dummy.txt" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403249320763" ignored="false" />
+    <file path="/Dummy.txt" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403256177384" ignored="false" />
     <file path="$USER_HOME$/vipsource/user_info/user_info_rest/src/main/java/com/vipshop/user/ApiCount.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401870889786" ignored="false" />
     <file path="/ApiCount.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401870269032" ignored="false" />
     <file path="$USER_HOME$/weipinhuisource/passport/passport_ui/pom.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401870455493" ignored="false" />
     <file path="$USER_HOME$/weipinhuisource/passport/passport_ui/src/main/webapp/static/js/passport.js" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401870455493" ignored="false" />
     <file path="$USER_HOME$/weipinhuisource/passport/passport_ui/src/main/java/com/vipshop/passport/ui/service/impl/LoginServiceImpl.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401870455493" ignored="false" />
     <file path="$USER_HOME$/weipinhuisource/passport/passport_ui/src/main/java/com/vipshop/passport/ui/action/ThirdLoginController.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401870455493" ignored="false" />
-    <file path="/a.dummy" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403243080563" ignored="false" />
-    <file path="/MyController.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403248493684" ignored="false" />
+    <file path="/a.dummy" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403255673587" ignored="false" />
+    <file path="/MyController.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403256972426" ignored="false" />
     <file path="$USER_HOME$/vipsource/user_vmark/pom.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401871863431" ignored="false" />
     <file path="$USER_HOME$/vipsource/user_vmark/user_vmark_rest/src/main/java/com/vipshop/user/ApiCount.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401871901356" ignored="false" />
-    <file path="/applicationContext.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401873182339" ignored="false" />
-    <file path="/applicationContext-springmvc.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403247219229" ignored="false" />
-    <file path="/BaseService.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403246323643" ignored="false" />
+    <file path="/applicationContext.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403252741710" ignored="false" />
+    <file path="/applicationContext-springmvc.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403252001893" ignored="false" />
+    <file path="/BaseService.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403255217404" ignored="false" />
     <file path="/filter-dev.properties" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401874733915" ignored="false" />
     <file path="/filter-product.properties" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401874717889" ignored="false" />
     <file path="/myshoot.web.properties" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1401874751996" ignored="false" />
@@ -60,11 +60,11 @@
     <file path="/todolist" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1402045625377" ignored="false" />
     <file path="/DynamicDataSource.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1402046106120" ignored="false" />
     <file path="/DataSourceSwitcher.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1402046015658" ignored="false" />
-    <file path="/fragment.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403246432454" ignored="false" />
-    <file path="/DatasourceAdvice.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1402046698708" ignored="false" />
+    <file path="/fragment.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403251323619" ignored="false" />
+    <file path="/DatasourceAdvice.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403257136250" ignored="false" />
     <file path="/Datasource.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1402046734135" ignored="false" />
     <file path="/DatasourceEnum.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1402046744827" ignored="false" />
-    <file path="/applicationContext-database.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403250966586" ignored="false" />
+    <file path="/applicationContext-database.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403256625327" ignored="false" />
     <file path="$USER_HOME$/vipsource/user_info/pom.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1402047650767" ignored="false" />
     <file path="/MyControllerTest.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403241309439" ignored="false" />
     <file path="$USER_HOME$/vipsource2/user_center/user_center_action/src/test/java/com/vipshop/usercenter/action/controller/EmailVerifyControllerTest.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403241374653" ignored="false" />
@@ -74,7 +74,7 @@
     <file path="/h2_test_data.sql" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403243933950" ignored="false" />
     <file path="$USER_HOME$/vipsource/user_info/user_info_service/src/test/resources/database/h2_test_data.sql" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403244013915" ignored="false" />
     <file path="/myshoot.service.properties" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403245526082" ignored="false" />
-    <file path="/UserDao.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403246079301" ignored="false" />
+    <file path="/UserDao.xml" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403256856139" ignored="false" />
     <file path="/User.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403248435172" ignored="false" />
     <file path="/h2_schema.sql" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403246144677" ignored="false" />
     <file path="/UserDao.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403246257446" ignored="false" />
@@ -161,7 +161,59 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/my_shoot_web/src/test/java/controller/MyControllerTest.java" line="44" class="controller.MyControllerTest" package="controller">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/my_shoot_web/src/test/java/RealTest.java" line="17" class="RealTest" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/my_shoot_web/src/main/java/controller/MyController.java" line="30" class="controller.MyController" package="controller">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -199,53 +251,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/my_shoot_web/src/test/java/controller/MyControllerTest.java" line="44" class="controller.MyControllerTest" package="controller">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/my_shoot_web/src/test/java/RealTest.java" line="17" class="RealTest" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/my_shoot_web/src/main/java/controller/MyController.java" line="29" class="controller.MyController" package="controller">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -255,82 +260,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="h2_schema.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/test/resources/database/h2_schema.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="38" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-database.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="applicationContext-database.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext-database.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="50" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.68058455">
+            <state line="66" column="98" selection-start="3228" selection-end="3228" vertical-scroll-proportion="-14.16">
+              <folding>
+                <element signature="e#1895#1912#0" expanded="true" />
+                <element signature="e#1952#1970#0" expanded="true" />
+                <element signature="e#2013#2035#0" expanded="true" />
+                <element signature="e#2138#2155#0" expanded="true" />
+                <element signature="e#2195#2213#0" expanded="true" />
+                <element signature="e#2256#2278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatasourceAdvice.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/database/DatasourceAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="33" selection-start="1061" selection-end="1061" vertical-scroll-proportion="1.0018417">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todolist" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todolist">
+      <file leaf-file-name="UserDao.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/resources/my_shoot/dao/UserDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="31" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperScannerConfigurer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.0/mybatis-spring-1.2.0-sources.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="14" selection-start="5753" selection-end="5753" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/java/controller/MyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="43" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/BaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/impl/ServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+            <state line="7" column="11" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -339,7 +297,61 @@
       <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/dao/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h2_test_data.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/test/resources/database/h2_test_data.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="17" selection-end="194" vertical-scroll-proportion="-0.68">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h2_schema.sql" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/test/resources/database/h2_schema.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="15" selection-start="284" selection-end="296" vertical-scroll-proportion="-2.72">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/java/controller/MyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="69" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/impl/ServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="3" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="47" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicDataSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/database/DynamicDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -355,24 +367,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/my_shoot_action/src/main/resources/my_shoot/dao/UserDao.xml" />
-        <option value="$PROJECT_DIR$/my_shoot_action/src/test/resources/database/h2_schema.sql" />
-        <option value="$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/impl/ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/my_shoot_web/src/test/java/base/SpringContextTestParent.java" />
-        <option value="$PROJECT_DIR$/my_shoot_web/pom.xml" />
-        <option value="$PROJECT_DIR$/my_shoot_web/src/test/java/RealTest.java" />
-        <option value="$PROJECT_DIR$/my_shoot_web/src/test/resources/spring/applicationContext-database.xml" />
-        <option value="$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext-springmvc.xml" />
-        <option value="$PROJECT_DIR$/my_shoot_web/src/test/resources/spring/applicationContext-springmvc.xml" />
-        <option value="$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/dao/bean/User.java" />
-        <option value="$PROJECT_DIR$/my_shoot_web/src/main/java/controller/MyController.java" />
         <option value="$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/dao/User.java" />
         <option value="$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/my_shoot_web/src/test/resources/spring/applicationContext-database.xml" />
+        <option value="$PROJECT_DIR$/my_shoot_web/src/test/java/controller/MyControllerTest.java" />
+        <option value="$PROJECT_DIR$/my_shoot_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext-springmvc.xml" />
         <option value="$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/my_shoot_web/src/test/java/RealTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/my_shoot_web/pom.xml" />
         <option value="$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext-database.xml" />
+        <option value="$PROJECT_DIR$/my_shoot_action/src/main/resources/my_shoot/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/my_shoot_web/src/main/java/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/impl/ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/database/DatasourceAdvice.java" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -527,7 +546,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -577,6 +596,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -597,6 +620,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot_web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -715,6 +772,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot_action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot_action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -842,13 +959,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_shoot_action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -863,6 +1014,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -880,7 +1032,7 @@
       <recent name="C:\Users\Administrator\gitsource\my_shoot\my_shoot_web\src\main\resources\spring" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RealTest.testListUser">
+  <component name="RunManager" selected="Maven.my_shoot_web [org.mortbay.jetty:maven-jetty-plugin:6.1.16:run]">
     <configuration default="false" name="MyControllerTest" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -961,17 +1113,17 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="my_shoot_web" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RealTest" />
       <option name="METHOD_NAME" value="testListUser" />
-      <option name="GROUP_NAME" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -979,12 +1131,44 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <option name="PROPERTIES_FILE" value="" />
       <envs />
       <properties />
       <listeners />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="53844" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="my_shoot_web [org.mortbay.jetty:maven-jetty-plugin:6.1.16:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="org.mortbay.jetty:maven-jetty-plugin:6.1.16:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map>
+                <entry key="dev" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/my_shoot_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -1027,6 +1211,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1053,19 +1250,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1104,16 +1288,106 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.MyControllerTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.BaseServiceImplTest.testMy" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RealTest.testListUser" />
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 6.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="my_shoot_web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_my_shoot" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56262" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="my_shoot_web:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 6.0" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.MyControllerTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.BaseServiceImplTest.testMy" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.RealTest.testListUser" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.my_shoot_web [org.mortbay.jetty:maven-jetty-plugin:6.1.16:run]" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.RealTest.testListUser" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.BaseServiceImplTest.testMy" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.MyControllerTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Maven.my_shoot_web [org.mortbay.jetty:maven-jetty-plugin:6.1.16:run]" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.RealTest.testListUser" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.BaseServiceImplTest.testMy" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.MyControllerTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1137,9 +1411,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.6006711" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3982103" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1149,11 +1423,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32976446" sideWeight="0.67114097" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16220556" sideWeight="0.67114097" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67114097" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1231,110 +1505,121 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/test/java/controller/MyControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="572" selection-end="622" vertical-scroll-proportion="0.0">
+        <state line="11" column="57" selection-start="650" selection-end="650" vertical-scroll-proportion="-7.48">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/test/java/RealTest.java">
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/database/DatasourceEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/test/resources/spring/applicationContext-springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="3268" selection-end="3268" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext-springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="43" selection-start="842" selection-end="842" vertical-scroll-proportion="-10.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/test/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="54" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/test/resources/spring/applicationContext-database.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="4" selection-start="3052" selection-end="3052" vertical-scroll-proportion="0.7908612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/test/resources/database/h2_schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/dao/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/impl/ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0">
+        <state line="6" column="12" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
+        <state line="10" column="17" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/java/controller/MyController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="43" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
+        <state line="52" column="46" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.0/mybatis-spring-1.2.0-sources.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.java">
+    <entry file="file://$PROJECT_DIR$/my_shoot_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="14" selection-start="5753" selection-end="5753" vertical-scroll-proportion="0.0">
+        <state line="57" column="37" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/database/DataSourceSwitcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="31" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/resources/spring/applicationContext-database.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="50" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.68058455">
+        <state line="66" column="98" selection-start="3228" selection-end="3228" vertical-scroll-proportion="-14.16">
+          <folding>
+            <element signature="e#1895#1912#0" expanded="true" />
+            <element signature="e#1952#1970#0" expanded="true" />
+            <element signature="e#2013#2035#0" expanded="true" />
+            <element signature="e#2138#2155#0" expanded="true" />
+            <element signature="e#2195#2213#0" expanded="true" />
+            <element signature="e#2256#2278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/test/resources/database/h2_test_data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="17" selection-end="194" vertical-scroll-proportion="-0.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/test/resources/database/h2_schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="15" selection-start="284" selection-end="296" vertical-scroll-proportion="-2.72">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/database/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/resources/my_shoot/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_web/src/main/java/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="69" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/impl/ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="3" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="47" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_shoot_action/src/main/java/my_shoot/service/database/DatasourceAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="33" selection-start="1061" selection-end="1061" vertical-scroll-proportion="1.0018417">
           <folding />
         </state>
       </provider>
@@ -1394,7 +1679,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>my_shoot_web</last-edited>
+          <last-edited>my_shoot_action</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

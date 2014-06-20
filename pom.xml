@@ -5,11 +5,11 @@
     <groupId>my_shoot</groupId>
     <artifactId>my_shoot</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <modules>
         <module>my_shoot_action</module>
         <module>my_shoot_web</module>
     </modules>
-    <packaging>pom</packaging>
 
     <name>my_shoot</name>
     <url>http://maven.apache.org</url>
@@ -50,6 +50,7 @@
         <mybatisVersion>3.2.2</mybatisVersion>
 
         <servlet.version>2.5</servlet.version>
+        <aspect.version>1.7.4</aspect.version>
     </properties>
 
     <developers>
@@ -95,13 +96,17 @@
                 <version>${lombok.version}</version>
             </dependency>
 
-            <!--spring -->
-            <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>servlet-api</artifactId>
-                <version>${servlet.version}</version>
-            </dependency>
             <!-- Spring -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspect.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
@@ -121,6 +126,11 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-test</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-dao</artifactId>
+                <version>2.0.8</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>

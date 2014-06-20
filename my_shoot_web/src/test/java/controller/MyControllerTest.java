@@ -15,9 +15,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.testng.AssertJUnit.assertEquals;
 
 /**
- * @author: harry.chen
- * @since: 14-6-20 上午10:48
- */
+* @author: harry.chen
+* @since: 14-6-20 上午10:48
+*/
 public class MyControllerTest {
 
     private MockMvc mockMvc;
