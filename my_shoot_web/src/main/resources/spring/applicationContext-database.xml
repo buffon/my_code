@@ -35,11 +35,31 @@
         </property>
     </bean>
 
-    <bean id="master" parent="parentDataSource"></bean>
+    <!--#{'${db.shoot.url}' == '' ? T(com.vipshop.user.core.util.SystemUtil).getDBUrl('CENTER') : '${db.user_center.url}'}-->
+    <bean id="master" parent="parentDataSource">
+        <property name="jdbcUrl" value="${db.shoot.url}" />
+        <property name="user" value="${db.shoot.user}"/>
+        <property name="password" value="${db.shoot.password}"/>
+    </bean>
 
-    <bean id="slave" parent="parentDataSource"></bean>
+    <bean id="slave" parent="parentDataSource">
+        <property name="jdbcUrl" value="${db.shoot.url}" />
+        <property name="user" value="${db.shoot.user}"/>
+        <property name="password" value="${db.shoot.password}"/>
+    </bean>
 
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="datasource" />
+    </bean>
+
+    <!-- Spring iBatis SqlMapClient -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="datasource" />
+        <property name="mapperLocations" value="classpath:my_shoot/dao/*.xml" />
+    </bean>
+
+    <!-- scan for mappers and let them be autowired -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--<property name="basePackage" value="my_shoot.service.dao" />-->
     </bean>
 </beans>

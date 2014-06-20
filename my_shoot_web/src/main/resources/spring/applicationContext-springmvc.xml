@@ -12,6 +12,9 @@
 
     <context:property-placeholder location="classpath:myshoot.web.properties"/>
 
+    <import resource="applicationContext.xml" />
+    <import resource="applicationContext-database.xml" />
+
     <context:component-scan base-package="controller"/>
 
     <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager">
