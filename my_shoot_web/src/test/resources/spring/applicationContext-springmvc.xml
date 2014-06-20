@@ -10,11 +10,14 @@
 	   http://www.springframework.org/schema/context
 	   http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
-    <context:property-placeholder location="classpath:myshoot.web.properties"/>
+    <!--<context:property-placeholder location="classpath:myshoot.web.properties, classpath:myshoot.service.properties"/>-->
+
+    <!--<import resource="applicationContext.xml" />-->
+
     <context:component-scan base-package="controller"/>
 
-    <import resource="applicationContext.xml" />
-    <import resource="applicationContext-database.xml" />
+    <context:property-placeholder
+            location="classpath:myshoot.web.properties"/>
 
     <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager">
         <mvc:message-converters register-defaults="false">
@@ -55,6 +58,7 @@
             </props>
         </property>
     </bean>
+
 
 
     <mvc:default-servlet-handler/>

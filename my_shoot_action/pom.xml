@@ -15,6 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <httpclient.version>4.2.6</httpclient.version>
     </properties>
 
     <dependencies>
@@ -39,6 +40,14 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${httpclient.version}</version>
+            <optional>true</optional>
+        </dependency>
+
         <!-- DAO layer -->
         <dependency>
             <groupId>org.mybatis</groupId>

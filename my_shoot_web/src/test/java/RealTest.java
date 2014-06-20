@@ -14,7 +14,6 @@ public class RealTest extends SpringContextTestParent {
     @Test
     public void testListUser(){
         List<User> users = baseService.listUser();
-
-        assertEquals(users.size(), 5);
+        assertEquals(users.size(), 3);
     }
 }

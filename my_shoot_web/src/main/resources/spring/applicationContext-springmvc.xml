@@ -16,6 +16,9 @@
 
     <context:component-scan base-package="controller"/>
 
+    <context:property-placeholder
+            location="classpath:myshoot.web.properties"/>
+
     <mvc:annotation-driven content-negotiation-manager="contentNegotiationManager">
         <mvc:message-converters register-defaults="false">
             <!-- 将StringHttpMessageCOnverter的默认编码设为UTF-8 -->

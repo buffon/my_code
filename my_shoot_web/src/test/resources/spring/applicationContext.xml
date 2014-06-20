@@ -9,6 +9,7 @@
                 http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
     <!--<import resource="applicationContext-thrift.xml"/>-->
+    <import resource="applicationContext-database.xml" />
 
     <context:annotation-config/>
 
