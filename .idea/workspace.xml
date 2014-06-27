@@ -163,7 +163,7 @@
     <file path="/Span.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403853118189" ignored="false" />
     <file path="/SpanContainer.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403852194885" ignored="false" />
     <file path="/ControllerHandler.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403854138703" ignored="false" />
-    <file path="/TraceContainer.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403861197185" ignored="false" />
+    <file path="/TraceContainer.java" changelist="26cfe699-d02a-43dc-9cbd-2f05bbc7d53a" time="1403862804971" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,15 +276,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eye/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ControllerHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eye/src/main/java/my_shoot/eye/interceptor/controller/ControllerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -296,10 +287,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ActionType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eye/src/main/java/my_shoot/eye/core/ActionType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TraceContainer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eye/src/main/java/my_shoot/eye/core/TraceContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.25560537">
+            <state line="2" column="42" selection-start="70" selection-end="70" vertical-scroll-proportion="0.042600896">
               <folding />
             </state>
           </provider>
@@ -581,7 +581,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages ProjectPane="false" />
-      <showMembers ProjectPane="true" />
+      <showMembers ProjectPane="false" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages ProjectPane="true" />
@@ -1346,7 +1346,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1362,7 +1362,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5857295" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1638207" sideWeight="0.4547391" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.4547391" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.4547391" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5452609" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.6006711" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1544,9 +1544,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eye/src/main/java/my_shoot/eye/core/ActionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eye/src/main/java/my_shoot/eye/core/TraceContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.25560537">
+        <state line="2" column="42" selection-start="70" selection-end="70" vertical-scroll-proportion="0.042600896">
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 package my_shoot.eye.core;
 
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,4 +12,6 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class TraceContainer {
 
+    private static final int QUEUE_SIZE = 10000;
+    private static final BlockingQueue<Span> queue = new LinkedBlockingQueue<Span>(QUEUE_SIZE);
 }
