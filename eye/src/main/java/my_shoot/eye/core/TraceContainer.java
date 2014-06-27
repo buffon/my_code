@@ -14,4 +14,5 @@ public class TraceContainer {
 
     private static final int QUEUE_SIZE = 10000;
     private static final BlockingQueue<Span> queue = new LinkedBlockingQueue<Span>(QUEUE_SIZE);
+
 }

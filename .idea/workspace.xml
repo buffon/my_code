@@ -299,8 +299,10 @@
       <file leaf-file-name="TraceContainer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eye/src/main/java/my_shoot/eye/core/TraceContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="42" selection-start="70" selection-end="70" vertical-scroll-proportion="0.042600896">
-              <folding />
+            <state line="16" column="4" selection-start="453" selection-end="453" vertical-scroll-proportion="0.34080717">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1553,8 +1555,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eye/src/main/java/my_shoot/eye/core/TraceContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="70" selection-end="70" vertical-scroll-proportion="0.042600896">
-          <folding />
+        <state line="16" column="4" selection-start="453" selection-end="453" vertical-scroll-proportion="0.34080717">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
