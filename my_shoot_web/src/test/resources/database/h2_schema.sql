@@ -5,7 +5,6 @@ CREATE TABLE IF NOT EXISTS `user` (
   `name` char(20) NOT NULL DEFAULT '',
   `sex` smallint(1) unsigned NOT NULL DEFAULT '0',
   `common` char(50) NOT NULL DEFAULT '',
-  `created_by` varchar(20) NOT NULL DEFAULT '',
-  `created_time` int(10) NOT NULL,
+  `created_time` char(20) NOT NULL,
   PRIMARY KEY (`id`)
 );

@@ -1,15 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>my_shoot</artifactId>
         <groupId>my_shoot</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>my_shoot_web</artifactId>
-    <packaging>war</packaging>
-    <name>my_shoot_web Maven Webapp</name>
+
+    <artifactId>eye</artifactId>
+    <packaging>jar</packaging>
+
+    <name>eye</name>
     <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -61,15 +68,7 @@
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
         </dependency>
-        <dependency>
-            <groupId>my_shoot</groupId>
-            <artifactId>my_shoot_action</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>my_shoot</groupId>
-            <artifactId>eye</artifactId>
-            <version>${version}</version>
-        </dependency>
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
@@ -125,82 +124,4 @@
             <artifactId>h2</artifactId>
         </dependency>
     </dependencies>
-    <build>
-        <finalName>my_shoot_web</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.mortbay.jetty</groupId>
-                <artifactId>maven-jetty-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-            </plugin>
-        </plugins>
-
-        <filters>
-            <filter>src/main/resources/filters/filter-${env}.properties</filter>
-        </filters>
-
-        <resources>
-            <!--resources-->
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-                <excludes>
-                    <exclude>spring/*</exclude>
-                    <exclude>filters/*</exclude>
-                </excludes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>false</filtering>
-                <includes>
-                    <include>spring/*</include>
-                </includes>
-            </resource>
-
-            <resource>
-                <directory>src/main/webapp</directory>
-                <filtering>true</filtering>
-                <includes>
-                    <include>WEB-INF/**.ftl</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>false</filtering>
-                <includes>
-                    <include>WEB-INF/*</include>
-                </includes>
-            </resource>
-        </resources>
-    </build>
-
-
-    <!-- 打包的不同profile -->
-    <profiles>
-        <!-- 开发人员测profile -->
-        <profile>
-            <id>dev</id>
-            <properties>
-                <env>dev</env>
-            </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-
-        <!-- 生产环境下的profile -->
-        <profile>
-            <id>product</id>
-            <properties>
-                <env>product</env>
-            </properties>
-        </profile>
-    </profiles>
 </project>

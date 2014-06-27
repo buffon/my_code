@@ -22,11 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="eye" />
         <module name="my_shoot_action" />
         <module name="my_shoot_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eye" target="1.6" />
       <module name="my_shoot" target="1.6" />
       <module name="my_shoot_action" target="1.6" />
       <module name="my_shoot_web" target="1.6" />

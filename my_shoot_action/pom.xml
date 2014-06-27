@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <httpclient.version>4.2.6</httpclient.version>
+        <httpclient.version>4.2.5</httpclient.version>
     </properties>
 
     <dependencies>
@@ -41,12 +41,23 @@
             <artifactId>spring-jdbc</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>${httpclient.version}</version>
-            <optional>true</optional>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.httpcomponents</groupId>-->
+            <!--<artifactId>httpclient</artifactId>-->
+            <!--<version>${httpclient.version}</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.httpcomponents</groupId>-->
+            <!--<artifactId>httpclient-cache</artifactId>-->
+            <!--<version>${httpclient.version}</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.httpcomponents</groupId>-->
+            <!--<artifactId>httpmime</artifactId>-->
+            <!--<version>${httpclient.version}</version>-->
+        <!--</dependency>-->
 
         <!-- DAO layer -->
         <dependency>
@@ -95,5 +106,10 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>my_shoot</groupId>
+            <artifactId>eye</artifactId>
+            <version>${version}</version>
+        </dependency>
     </dependencies>
 </project>

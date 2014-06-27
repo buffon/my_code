@@ -21,9 +21,6 @@ public class MyController {
     @Autowired
     BaseService baseService;
 
-    @Value("${key}")
-    String key;
-
     @RequestMapping(value = "/base", method = RequestMethod.GET)
     @ResponseBody
     public String my(){

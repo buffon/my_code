@@ -10,11 +10,13 @@
 
     <!--<import resource="applicationContext-thrift.xml"/>-->
     <import resource="applicationContext-database.xml" />
+    <import resource="applicationContext-eagle.xml" />
 
     <context:annotation-config/>
 
     <context:component-scan base-package="my_shoot.service"/>
 
+    <!--<bean class="interceptor.MyContextAware"/>-->
     <context:property-placeholder
             location="classpath:myshoot.service.properties"/>
 

@@ -13,6 +13,7 @@
     <!--<context:property-placeholder location="classpath:myshoot.web.properties, classpath:myshoot.service.properties"/>-->
 
     <!--<import resource="applicationContext.xml" />-->
+    <import resource="applicationContext-eagle.xml" />
 
     <context:component-scan base-package="controller"/>
 
@@ -58,8 +59,6 @@
             </props>
         </property>
     </bean>
-
-
 
     <mvc:default-servlet-handler/>
 

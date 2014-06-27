@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eye/eye.iml" filepath="$PROJECT_DIR$/eye/eye.iml" />
       <module fileurl="file://$PROJECT_DIR$/my_shoot.iml" filepath="$PROJECT_DIR$/my_shoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/my_shoot_action/my_shoot_action.iml" filepath="$PROJECT_DIR$/my_shoot_action/my_shoot_action.iml" />
       <module fileurl="file://$PROJECT_DIR$/my_shoot_web/my_shoot_web.iml" filepath="$PROJECT_DIR$/my_shoot_web/my_shoot_web.iml" />

@@ -50,11 +50,17 @@
         <property name="dataSource" ref="datasource" />
     </bean>
 
+    <bean id="mybatisInterceptor" class="my_shoot.eye.interceptor.mybatis.MyBatisInterceptor"/>
     <!-- Spring iBatis SqlMapClient -->
-    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="datasource" />
         <property name="typeAliasesPackage" value="my_shoot.service.dao" />
         <property name="mapperLocations" value="classpath:my_shoot/dao/*.xml" />
+        <property name="plugins">
+            <list>
+                <ref bean="mybatisInterceptor"/>
+            </list>
+        </property>
     </bean>
 
     <!-- scan for mappers and let them be autowired -->
@@ -68,4 +74,6 @@
     </aop:config>
 
     <tx:annotation-driven/>
+
+
 </beans>
