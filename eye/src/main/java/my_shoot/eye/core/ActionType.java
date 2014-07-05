@@ -8,4 +8,8 @@ package my_shoot.eye.core;
  * To change this template use File | Settings | File Templates.
  */
 public enum ActionType {
+    DAO(0),SERVICE(1),CONTROLLER(2);
+
+    private ActionType(int value){}
+
 }

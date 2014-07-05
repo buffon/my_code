@@ -3,8 +3,11 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eye" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eye/src/main/java/my_shoot/eye/jmx/HelloAgent.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/hbase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my_shoot_action" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/my_shoot_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my_shoot_web/assembly.xml" charset="GBK" />
   </component>
 </project>
 

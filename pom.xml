@@ -10,6 +10,7 @@
         <module>my_shoot_action</module>
         <module>my_shoot_web</module>
         <module>eye</module>
+        <module>hbase</module>
     </modules>
 
     <name>my_shoot</name>
