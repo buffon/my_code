@@ -11,4 +11,12 @@ import java.util.List;
 public interface UserDao {
 
     List<User> list();
+
+    List<User> findByName(User user);
+
+    int updateById(User user);
+
+    int updateByIdForUpdate(User user);
+
+    List<User> findByNameForUpdate(User user);
 }

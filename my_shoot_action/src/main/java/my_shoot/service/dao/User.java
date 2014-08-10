@@ -13,6 +13,18 @@ public class User implements Serializable {
     private String name;
     private Integer sex;
     private String common;
+    private Integer age;
+
+    private Date createdBy;
+    private Date createdTime;
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 
     public Date getCreatedBy() {
         return createdBy;
@@ -30,8 +42,6 @@ public class User implements Serializable {
         this.createdTime = createdTime;
     }
 
-    private Date createdBy;
-    private Date createdTime;
 
     public Integer getId() {
         return id;

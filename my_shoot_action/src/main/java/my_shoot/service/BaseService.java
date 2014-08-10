@@ -17,4 +17,12 @@ public interface BaseService {
     public String base();
 
     public List<User> listUser();
+
+    public User findByName(User user);
+
+    public User findByNameForUpdate(User user);
+
+    int updateById(User user);
+
+    public void testMethod(User user);
 }
