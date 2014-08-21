@@ -4,7 +4,9 @@ import my_shoot.eye.core.Span;
 import my_shoot.eye.core.SpanContainer;
 import my_shoot.eye.util.Tools;
 import org.apache.ibatis.executor.statement.StatementHandler;
+import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.plugin.*;
+import org.apache.ibatis.session.defaults.DefaultSqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
@@ -14,9 +16,9 @@ import org.springframework.stereotype.Component;
 import java.sql.Connection;
 import java.util.Properties;
 
-//@Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class})})
 @Component
-public class MyBatisInterceptor implements Interceptor, ApplicationContextAware {
+@Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class})})
+public class MyBatisInterceptor implements Interceptor {
 
     @Override
     public Object intercept(Invocation invocation) throws Throwable {
@@ -36,9 +38,4 @@ public class MyBatisInterceptor implements Interceptor, ApplicationContextAware 
     public void setProperties(Properties properties) {
     }
 
-    @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        SqlSessionFactoryBean bean = applicationContext.getBean(SqlSessionFactoryBean.class);
-        bean.setPlugins(new Interceptor[]{new MyBatisInterceptor()});
-    }
 }

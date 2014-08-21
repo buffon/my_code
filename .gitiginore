@@ -1,5 +1,9 @@
 .idea/
 eye/target/
+eye/eye.iml
 my_shoot_web/target/
+my_shoot_web/my_shoot_web.iml
 my_shoot_action/target/
+my_shoot_action/my_shoot_action.iml
 hbase/hbase.iml
+hbase/target/

@@ -25,8 +25,8 @@
     <bean id="aopAfterAdvice" class="my_shoot.eye.interceptor.spring.BeforeAdvice"/>
 
     <aop:config>
-        <aop:advisor advice-ref="aopBeforeAdvice" pointcut="execution(* my_shoot.service.impl..*Impl.*(..))"/>
-        <aop:advisor advice-ref="aopAfterAdvice" pointcut="execution(* my_shoot.service.impl..*Impl.*(..))"/>
+        <aop:advisor advice-ref="aopBeforeAdvice" pointcut="execution(* my_shoot.service.impl..*Impl.*(..)),execution(* my_shoot.service.dao..*Dao.*(..))"/>
+        <aop:advisor advice-ref="aopAfterAdvice" pointcut="execution(* my_shoot.service.impl..*Impl.*(..)),execution(* my_shoot.service.dao..*Dao.*(..))"/>
     </aop:config>
 
     <tx:annotation-driven/>
