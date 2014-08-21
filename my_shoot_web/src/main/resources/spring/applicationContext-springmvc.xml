@@ -12,8 +12,8 @@
 
     <!--<context:property-placeholder location="classpath:myshoot.web.properties, classpath:myshoot.service.properties"/>-->
 
-    <!--<import resource="applicationContext.xml" />-->
-    <import resource="applicationContext-eagle.xml" />
+    <import resource="applicationContext.xml" />
+    <!--<import resource="applicationContext-eagle.xml" />-->
 
     <context:component-scan base-package="controller"/>
 
@@ -63,8 +63,8 @@
     <mvc:default-servlet-handler/>
 
     <!-- 容器默认的DefaultServletHandler处理 所有静态内容与无RequestMapping处理的URL -->
-    <mvc:resources mapping="/css/**" location="/css/"/>
-    <mvc:resources mapping="/script/**" location="/script/"/>
-    <mvc:resources mapping="/images/**" location="/images/"/>
+    <!--<mvc:resources mapping="/css/**" location="/css/"/>-->
+    <!--<mvc:resources mapping="/script/**" location="/script/"/>-->
+    <!--<mvc:resources mapping="/images/**" location="/images/"/>-->
 
 </beans>

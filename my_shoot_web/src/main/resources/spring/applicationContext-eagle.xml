@@ -15,6 +15,8 @@
 	   http://www.springframework.org/schema/context
 	   http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
+    <context:component-scan base-package="my_shoot.eye.interceptor" />
+
     <mvc:interceptors>
         <bean class="my_shoot.eye.interceptor.controller.ControllerHandler"/>
     </mvc:interceptors>

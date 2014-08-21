@@ -27,6 +27,7 @@ public class ServiceImpl implements BaseService {
 
     @Override
     public List<User> listUser() {
+        userDao.list();
         return userDao.list();
     }
 }
