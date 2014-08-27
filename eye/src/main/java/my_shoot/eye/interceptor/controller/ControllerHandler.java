@@ -30,5 +30,8 @@ public class ControllerHandler extends HandlerInterceptorAdapter {
 
         /*handle how to show*/
         SpanShow.show(SpanContainer.getSpan(), 0);
+        /*
+         * to nio server
+         */
     }
 }

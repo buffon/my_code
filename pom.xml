@@ -11,6 +11,9 @@
         <module>my_shoot_web</module>
         <module>eye</module>
         <module>hbase</module>
+        <module>nio_server</module>
+        <module>nio_client</module>
+        <module>httpclient</module>
     </modules>
 
     <name>my_shoot</name>
