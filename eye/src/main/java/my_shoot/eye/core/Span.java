@@ -2,11 +2,12 @@ package my_shoot.eye.core;
 
 import my_shoot.eye.util.Tools;
 
+import java.io.Serializable;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Span {
+public class Span implements Serializable{
 
     /*唯一 iD*/
     private String traceId;
@@ -128,5 +129,16 @@ public class Span {
         this.traceId = traceId;
     }
 
-
+    @Override
+    public String toString() {
+        return "Span{" +
+                "traceId='" + traceId + '\'' +
+                ", method='" + method + '\'' +
+                ", current=" + current +
+                ", parent=" + parent +
+                ", subs=" + subs +
+                ", startTime=" + startTime +
+                ", endTime=" + endTime +
+                '}';
+    }
 }
