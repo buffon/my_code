@@ -1,8 +1,10 @@
 package my_shoot.eye.interceptor.controller;
 
+import my_shoot.client.RpcClient;
 import my_shoot.eye.core.Span;
 import my_shoot.eye.core.SpanContainer;
 import my_shoot.eye.util.SpanShow;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -17,6 +19,11 @@ import javax.servlet.http.HttpServletResponse;
  * To change this template use File | Settings | File Templates.
  */
 public class ControllerHandler extends HandlerInterceptorAdapter {
+
+    @Autowired
+    RpcClient rpcClient;
+
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         Span.newSpan("[" + request.getRequestURI() + "]");
@@ -28,10 +35,12 @@ public class ControllerHandler extends HandlerInterceptorAdapter {
         super.postHandle(request, response, handler, modelAndView);
         Span.over();
 
+
         /*handle how to show*/
         SpanShow.show(SpanContainer.getSpan(), 0);
         /*
          * to nio server
          */
+        rpcClient.sendMsg(SpanContainer.getSpan());
     }
 }

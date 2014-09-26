@@ -71,6 +71,11 @@
             <version>${version}</version>
         </dependency>
         <dependency>
+            <groupId>my_shoot</groupId>
+            <artifactId>nio_client</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
         </dependency>

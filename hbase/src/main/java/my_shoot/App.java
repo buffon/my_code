@@ -23,7 +23,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 import java.io.IOException;
 
 /**
- * Hello world!
+ * chenyehui
  */
 public class App {
     private static HBaseConfiguration hbaseConfig = null;

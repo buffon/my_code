@@ -9,6 +9,7 @@ import org.jboss.netty.channel.ChannelPipelineFactory;
 import org.jboss.netty.channel.Channels;
 import org.jboss.netty.channel.socket.nio.NioClientSocketChannelFactory;
 import org.jboss.netty.handler.codec.serialization.ObjectEncoder;
+import org.springframework.beans.factory.InitializingBean;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
@@ -17,11 +18,15 @@ import java.util.concurrent.Executors;
  * @auther: chenyehui
  * @since: 14-8-28 上午12:36
  */
-public class RpcClient {
+public class RpcClient implements InitializingBean{
 
     private static ChannelFuture future;
 
-    public static void send() {
+    private String ip;
+
+    private Integer port;
+
+    public void init() {
         ClientBootstrap bootstrap = new ClientBootstrap(
                 new NioClientSocketChannelFactory(
                         Executors.newCachedThreadPool(),
@@ -48,16 +53,32 @@ public class RpcClient {
             }
         });
 
-        future = bootstrap.connect(new InetSocketAddress("127.0.0.1", 8080));
+        future = bootstrap.connect(new InetSocketAddress(ip, port));
     }
 
-    public static void sendMsg(Span span) {
+    public void sendMsg(Span span) {
         if (future == null) return;
         future.getChannel().write(span);
     }
 
-    public static void main(String[] args) {
-        send();
-        sendMsg(new Span());
+    @Override
+    public void afterPropertiesSet() throws Exception {
+          init();
+    }
+
+    public Integer getPort() {
+        return port;
+    }
+
+    public void setPort(Integer port) {
+        this.port = port;
+    }
+
+    public String getIp() {
+        return ip;
+    }
+
+    public void setIp(String ip) {
+        this.ip = ip;
     }
 }
