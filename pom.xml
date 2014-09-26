@@ -14,6 +14,7 @@
         <module>nio_server</module>
         <module>nio_client</module>
         <module>httpclient</module>
+        <module>trace_query</module>
     </modules>
 
     <name>my_shoot</name>
@@ -68,6 +69,12 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongo-java-driver</artifactId>
+                <version>2.11.1</version>
+            </dependency>
+
             <dependency>
                 <groupId>my_shoot</groupId>
                 <artifactId>my_shoot_action</artifactId>

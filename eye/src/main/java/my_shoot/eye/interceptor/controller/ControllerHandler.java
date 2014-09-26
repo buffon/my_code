@@ -1,5 +1,6 @@
 package my_shoot.eye.interceptor.controller;
 
+import com.alibaba.fastjson.JSON;
 import my_shoot.client.RpcClient;
 import my_shoot.eye.core.Span;
 import my_shoot.eye.core.SpanContainer;
@@ -35,12 +36,14 @@ public class ControllerHandler extends HandlerInterceptorAdapter {
         super.postHandle(request, response, handler, modelAndView);
         Span.over();
 
+        Span span = SpanContainer.getSpan();
+
 
         /*handle how to show*/
         SpanShow.show(SpanContainer.getSpan(), 0);
         /*
          * to nio server
          */
-        rpcClient.sendMsg(SpanContainer.getSpan());
+        rpcClient.sendMsg(JSON.toJSONString(SpanShow.rmParam(SpanContainer.getSpan())));
     }
 }

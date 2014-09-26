@@ -48,7 +48,7 @@
     </bean>
     <bean id="freemarkerConfig"
           class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
-        <property name="templateLoaderPath" value="/WEB-INF/ftl/"/>
+        <property name="templateLoaderPath" value="/resource/page/"/>
         <property name="freemarkerSettings">
             <props>
                 <prop key="defaultEncoding">UTF-8</prop>

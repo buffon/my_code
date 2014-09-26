@@ -37,7 +37,7 @@ public class RpcServer {
 
         });
 
-        bootstrap.bind(new InetSocketAddress(8080));
+        bootstrap.bind(new InetSocketAddress(8082));
     }
 
     public static void main(String[] args) {

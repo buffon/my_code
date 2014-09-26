@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nio_server</artifactId>
+    <artifactId>trace_query</artifactId>
     <packaging>jar</packaging>
 
-    <name>nio_server</name>
+    <name>trace_query</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -19,23 +19,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jboss.netty</groupId>
-            <artifactId>netty</artifactId>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
         </dependency>
-        <dependency>
-                <groupId>my_shoot</groupId>
-                <artifactId>eye</artifactId>
-                <version>${version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-        </dependency>
-
     </dependencies>
 </project>

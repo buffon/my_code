@@ -29,4 +29,50 @@ public class SpanShow {
             }
         }
     }
+
+    public static String webShow(Span span, int i, StringBuilder sb) {
+        if (sb == null)
+            sb = new StringBuilder();
+        if (span != null) {
+            for (int t = 0; t < i; t++)
+                sb.append("|---");
+            if (i == 0) {
+                sb.append(format.format(span.getStartTime()) + " ");
+            }
+            sb.append(span.getMethod() + " => " + (span.getEndTime() - span.getStartTime()) + "ms").append("<br>");
+            List<Span> spans = span.getSubs();
+            if (spans != null) {
+                for (Span subspan : spans) {
+                    webShow(subspan, i + 1, sb);
+                }
+            }
+        }
+        return sb.toString();
+    }
+
+    public static String webShow(Span span) {
+        return webShow(span, 0, null);
+    }
+
+    public static String webShow(List<Span> spans) {
+        StringBuilder sb = new StringBuilder();
+        for (Span span : spans) {
+            sb.append(webShow(span, 0, null));
+        }
+        return sb.toString();
+    }
+
+    public static Span rmParam(Span span) {
+        if (span != null) {
+            span.setCurrent(null);
+            span.setParent(null);
+            List<Span> spans = span.getSubs();
+            if (spans != null) {
+                for (Span subspan : spans) {
+                    rmParam(subspan);
+                }
+            }
+        }
+        return span;
+    }
 }

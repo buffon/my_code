@@ -1,6 +1,5 @@
 package my_shoot.client.handler;
 
-import my_shoot.eye.core.Span;
 import org.jboss.netty.channel.ChannelHandlerContext;
 import org.jboss.netty.channel.ChannelStateEvent;
 import org.jboss.netty.channel.ExceptionEvent;

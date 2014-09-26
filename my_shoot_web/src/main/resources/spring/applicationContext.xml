@@ -25,7 +25,7 @@
 
     <bean class="my_shoot.client.RpcClient">
         <property name="ip" value="127.0.0.1"/>
-        <property name="port" value='80'/>
+        <property name="port" value='8082'/>
     </bean>
 
 </beans>

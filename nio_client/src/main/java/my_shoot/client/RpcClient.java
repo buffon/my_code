@@ -1,7 +1,6 @@
 package my_shoot.client;
 
 import my_shoot.client.handler.SpanSendHandler;
-import my_shoot.eye.core.Span;
 import org.jboss.netty.bootstrap.ClientBootstrap;
 import org.jboss.netty.channel.ChannelFuture;
 import org.jboss.netty.channel.ChannelPipeline;
@@ -18,7 +17,7 @@ import java.util.concurrent.Executors;
  * @auther: chenyehui
  * @since: 14-8-28 上午12:36
  */
-public class RpcClient implements InitializingBean{
+public class RpcClient implements InitializingBean {
 
     private static ChannelFuture future;
 
@@ -56,14 +55,14 @@ public class RpcClient implements InitializingBean{
         future = bootstrap.connect(new InetSocketAddress(ip, port));
     }
 
-    public void sendMsg(Span span) {
-        if (future == null) return;
-        future.getChannel().write(span);
+    public void sendMsg(String s) {
+        if (future == null) init();
+        future.getChannel().write(s);
     }
 
     @Override
     public void afterPropertiesSet() throws Exception {
-          init();
+        init();
     }
 
     public Integer getPort() {
