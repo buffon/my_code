@@ -16,6 +16,9 @@ import org.springframework.stereotype.Component;
 import java.sql.Connection;
 import java.util.Properties;
 
+/**
+ * no use now
+ */
 @Component
 @Intercepts({@Signature(type = StatementHandler.class, method = "prepare", args = {Connection.class})})
 public class MyBatisInterceptor implements Interceptor {
