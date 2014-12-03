@@ -42,6 +42,6 @@ public class MyControllerTest {
 
         String res = result.getResponse().getContentAsString();
 
-        assertEquals(res, "");
+        assertEquals(res, "chenyehui");
     }
 }
