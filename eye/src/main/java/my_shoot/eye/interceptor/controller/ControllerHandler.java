@@ -1,16 +1,16 @@
 package my_shoot.eye.interceptor.controller;
 
-import com.alibaba.fastjson.JSON;
-import my_shoot.client.RpcClient;
-import my_shoot.eye.core.Span;
-import my_shoot.eye.core.SpanContainer;
-import my_shoot.eye.util.SpanShow;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import my_shoot.eye.sender.SpanSender;
+import my_shoot.eye.util.SpanShow;
+import my_shoot.eye_base.core.Span;
+import my_shoot.eye_base.core.SpanContainer;
 
 /**
  * Created with IntelliJ IDEA.
@@ -21,8 +21,14 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class ControllerHandler extends HandlerInterceptorAdapter {
 
+//    @Autowired
+//    RpcClient rpcClient;
+
+    /**
+     * version 2 .
+     */
     @Autowired
-    RpcClient rpcClient;
+    private SpanSender spanSender;
 
 
     @Override
@@ -44,6 +50,8 @@ public class ControllerHandler extends HandlerInterceptorAdapter {
         /*
          * to nio server
          */
-        rpcClient.sendMsg(JSON.toJSONString(SpanShow.rmParam(SpanContainer.getSpan())));
+        //rpcClient.sendMsg(JSON.toJSONString(SpanShow.rmParam(SpanContainer.getSpan())));
+
+        spanSender.send(span);
     }
 }

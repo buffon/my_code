@@ -1,4 +1,4 @@
-package my_shoot.eye.core;
+package my_shoot.eye_base.core;
 
 /**
  * Created with IntelliJ IDEA.

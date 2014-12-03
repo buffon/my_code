@@ -15,6 +15,7 @@
         <module>nio_client</module>
         <module>httpclient</module>
         <module>trace_query</module>
+        <module>eye_base</module>
     </modules>
 
     <name>my_shoot</name>

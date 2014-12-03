@@ -1,6 +1,7 @@
 package my_shoot.client;
 
 import my_shoot.client.handler.SpanSendHandler;
+
 import org.jboss.netty.bootstrap.ClientBootstrap;
 import org.jboss.netty.channel.ChannelFuture;
 import org.jboss.netty.channel.ChannelPipeline;
@@ -11,6 +12,7 @@ import org.jboss.netty.handler.codec.serialization.ObjectEncoder;
 import org.springframework.beans.factory.InitializingBean;
 
 import java.net.InetSocketAddress;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.Executors;
 
 /**
@@ -25,11 +27,12 @@ public class RpcClient implements InitializingBean {
 
     private Integer port;
 
+    ConcurrentLinkedQueue<String> results = new ConcurrentLinkedQueue<String>();
+
     public void init() {
-        ClientBootstrap bootstrap = new ClientBootstrap(
-                new NioClientSocketChannelFactory(
-                        Executors.newCachedThreadPool(),
-                        Executors.newCachedThreadPool()));
+        ClientBootstrap bootstrap =
+            new ClientBootstrap(new NioClientSocketChannelFactory(Executors.newCachedThreadPool(),
+                                                                     Executors.newCachedThreadPool()));
 
         bootstrap.setPipelineFactory(new ChannelPipelineFactory() {
             /*
@@ -56,7 +59,10 @@ public class RpcClient implements InitializingBean {
     }
 
     public void sendMsg(String s) {
-        if (future == null) init();
+        if (future == null) {
+            init();
+        }
+        // TODO use queue.
         future.getChannel().write(s);
     }
 

@@ -1,9 +1,9 @@
 package my_shoot.eye.util;
 
-import my_shoot.eye.core.Span;
-
 import java.text.SimpleDateFormat;
 import java.util.List;
+
+import my_shoot.eye_base.core.Span;
 
 /**
  * @auther: chenyehui
