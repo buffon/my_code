@@ -24,7 +24,7 @@ public class MyController {
     @RequestMapping(value = "/base", method = RequestMethod.GET)
     @ResponseBody
     public String my(){
-        List<User> users = baseService.listUser();
-        return JSON.toJSONString(users);
+        String res = baseService.base();
+        return res;
     }
 }
