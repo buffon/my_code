@@ -1,6 +1,7 @@
 package my_shoot.server;
 
 import my_shoot.server.handler.SpanReceiveHandler;
+
 import org.jboss.netty.bootstrap.ServerBootstrap;
 import org.jboss.netty.channel.ChannelPipeline;
 import org.jboss.netty.channel.ChannelPipelineFactory;
@@ -17,20 +18,16 @@ import java.util.concurrent.Executors;
  */
 public class RpcServer {
 
+    public static void start() {
 
-    public static void start(){
+        ServerBootstrap bootstrap =
+            new ServerBootstrap(new NioServerSocketChannelFactory(Executors.newCachedThreadPool(),
+                                                                     Executors.newCachedThreadPool()));
 
-        ServerBootstrap bootstrap = new ServerBootstrap(
-                new NioServerSocketChannelFactory(
-                        Executors.newCachedThreadPool(),
-                        Executors.newCachedThreadPool()));
-
-        bootstrap.setPipelineFactory(new ChannelPipelineFactory()
-        {
+        bootstrap.setPipelineFactory(new ChannelPipelineFactory() {
 
             @Override
-            public ChannelPipeline getPipeline() throws Exception
-            {
+            public ChannelPipeline getPipeline() throws Exception {
                 ChannelPipeline pipleline = Channels.pipeline(new ObjectDecoder(), new SpanReceiveHandler());
                 return pipleline;
             }

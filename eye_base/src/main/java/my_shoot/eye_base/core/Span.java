@@ -5,8 +5,9 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
+import my_shoot.eye_base.core.util.Tools;
 
-public class Span implements Serializable{
+public class Span implements Serializable {
 
     /*唯一 iD*/
     private String traceId;
@@ -35,9 +36,10 @@ public class Span implements Serializable{
 
     /**
      * 在每一次调用开始的时候，新建一个span
+     *
      * @param method
      */
-    public static void newSpan(String method){
+    public static void newSpan(String method) {
         Span span = new Span();
         span.setTraceId(Tools.getUUID());
         span.setCurrent(span);
@@ -57,7 +59,6 @@ public class Span implements Serializable{
             SpanContainer.setSpan(span);
         }
     }
-
 
     public static void over() {
         Span span = SpanContainer.getSpan();
@@ -118,7 +119,6 @@ public class Span implements Serializable{
         this.subs = subs;
     }
 
-
     public String getTraceId() {
 
         return traceId;
@@ -131,13 +131,13 @@ public class Span implements Serializable{
     @Override
     public String toString() {
         return "Span{" +
-                "traceId='" + traceId + '\'' +
-                ", method='" + method + '\'' +
-                ", current=" + current +
-                ", parent=" + parent +
-                ", subs=" + subs +
-                ", startTime=" + startTime +
-                ", endTime=" + endTime +
-                '}';
+                   "traceId='" + traceId + '\'' +
+                   ", method='" + method + '\'' +
+                   ", current=" + current +
+                   ", parent=" + parent +
+                   ", subs=" + subs +
+                   ", startTime=" + startTime +
+                   ", endTime=" + endTime +
+                   '}';
     }
 }

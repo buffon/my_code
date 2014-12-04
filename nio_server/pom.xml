@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
                 <groupId>my_shoot</groupId>
-                <artifactId>eye</artifactId>
+                <artifactId>eye_base</artifactId>
                 <version>${version}</version>
         </dependency>
         <dependency>
