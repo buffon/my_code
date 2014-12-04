@@ -3,7 +3,8 @@ package my_shoot.server.mongo.impl;
 import com.alibaba.fastjson.JSON;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
-import my_shoot.eye.core.Span;
+
+import my_shoot.eye_base.core.Span;
 import my_shoot.server.mongo.BaseDaoImpl;
 import my_shoot.server.mongo.SpanDao;
 import org.springframework.stereotype.Component;

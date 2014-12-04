@@ -12,7 +12,7 @@
     <bean id="nettySpanHandler" class="my_shoot.eye.handler.NettySpanHandler"/>
 
     <bean class="my_shoot.eye.sender.SpanSender">
-        <property name="spanHandler" ref="nettySpanHandler"/> 
+        <property name="spanHandler" ref="nettySpanHandler"/>
     </bean>
 
 </beans>

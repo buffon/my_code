@@ -13,7 +13,6 @@
         <module>hbase</module>
         <module>nio_server</module>
         <module>nio_client</module>
-        <module>httpclient</module>
         <module>trace_query</module>
         <module>eye_base</module>
     </modules>

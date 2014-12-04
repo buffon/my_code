@@ -1,4 +1,4 @@
-package my_shoot.eye.util;
+package my_shoot.eye_base.core;
 
 import java.lang.reflect.Method;
 import java.util.UUID;

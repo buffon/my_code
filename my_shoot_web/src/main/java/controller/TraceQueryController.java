@@ -1,7 +1,7 @@
 package controller;
 
-import my_shoot.eye.core.Span;
 import my_shoot.eye.util.SpanShow;
+import my_shoot.eye_base.core.Span;
 import my_shoot.server.mongo.SpanDao;
 import my_shoot.server.mongo.impl.SpanDaoImpl;
 import org.springframework.stereotype.Controller;

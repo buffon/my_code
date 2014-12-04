@@ -1,7 +1,8 @@
 package my_shoot.server.handler;
 
 import com.alibaba.fastjson.JSON;
-import my_shoot.eye.core.Span;
+
+import my_shoot.eye_base.core.Span;
 import my_shoot.server.mongo.SpanDao;
 import my_shoot.server.mongo.impl.SpanDaoImpl;
 import org.jboss.netty.channel.ChannelHandlerContext;

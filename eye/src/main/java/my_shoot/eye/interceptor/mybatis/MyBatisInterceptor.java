@@ -1,16 +1,9 @@
 package my_shoot.eye.interceptor.mybatis;
 
-import my_shoot.eye.util.Tools;
 import my_shoot.eye_base.core.Span;
 
 import org.apache.ibatis.executor.statement.StatementHandler;
-import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.plugin.*;
-import org.apache.ibatis.session.defaults.DefaultSqlSessionFactory;
-import org.mybatis.spring.SqlSessionFactoryBean;
-import org.springframework.beans.BeansException;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
